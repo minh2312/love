@@ -256,10 +256,18 @@
             paused: true,
             onComplete: function() {
                 setToggledEnabled(true);
+                // Swal.fire({
+                //     text: 'Ok I know you love me',
+                //     icon: 'success', 
+                //     confirmButtonText: 'Đồng ý'
+                // });
                 Swal.fire({
-                    text: 'Ok I know you love me',
-                    icon: 'success', 
-                    confirmButtonText: 'Đồng ý'
+                  title: "Okay babe!",
+                  text: "Iuuuuuuuu",
+                  imageUrl: "./photo_2024-10-23_16-58-56.jpg",
+                  imageWidth: 400,
+                  imageHeight: 700,
+                  imageAlt: "Custom image"
                 });
             },
             onCompleteParams: [true]
